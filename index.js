@@ -7,7 +7,7 @@ async function first_model(){
       const input_s = mobilenet.inputs[0].shape;
 	const output_s = mobilenet.outputs[0].shape;
       document.getElementById('output_field').innerText = 
-      'Your model predicts:\n\n' + 
-      mobilenet.predict(tf.zeros([1, 224, 224, 3]))}
-      first_model();
-      
+            'Your model predicts:\n\n' + mobilenet.predict(tf.zeros([1, 224, 224, 3]))
+}
+
+first_model();
