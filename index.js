@@ -1,3 +1,7 @@
+---
+layout: default
+title: Classifier
+---
 
 async function first_model() {
       const mobilenet = await tf.loadModel('https://storage.googleapis.com/tfjs-models/tfjs/mobilenet_v1_0.25_224/model.json');
